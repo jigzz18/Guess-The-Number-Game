@@ -3,7 +3,7 @@
 Maven Architecture based Game using spring boot 2 , Lombok , Thymeleaf , Spring MVC.
 User has to guess a randomly generated number between a given range within 10 attempts.
 
-##Usage
+#Usage
 
 Load the project in Intellij Idea.
 Run the mvn clean install command.
