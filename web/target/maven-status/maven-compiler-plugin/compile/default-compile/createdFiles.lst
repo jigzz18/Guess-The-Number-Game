@@ -1,0 +1,9 @@
+maven\project\service\GameServiceImpl.class
+maven\project\config\WebConfig.class
+maven\project\WebMain.class
+maven\project\util\AttributeNames.class
+maven\project\service\GameService.class
+maven\project\util\thymeleaf\DecoupledLogicSetup.class
+maven\project\controller\GameController.class
+maven\project\util\GameMappings.class
+maven\project\util\ViewNames.class

@@ -1,0 +1,7 @@
+<thlogic>
+    <attr sel="#headId" th:replace="~{fragments/head :: headFragment}"/>
+    <attr sel="#result-message" th:text="${__${T(maven.project.util.AttributeNames).RESULT_MESSAGE}__}"/>
+    <attr sel="#restart-game" th:href="@{__${T(maven.project.util.GameMappings).RESTART}__}"/>
+    <attr sel="#home-page" th:href="@{__${T(maven.project.util.GameMappings).HOME}__}"/>
+    <attr sel="#footerId" th:replace="~{fragments/footer :: footerFragment}"/>
+</thlogic>

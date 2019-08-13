@@ -1,0 +1,5 @@
+<thlogic>
+    <attr sel="#headId" th:replace="~{fragments/head :: headFragment}"/>
+    <attr sel="#game-play" th:href="@{__${T(maven.project.util.GameMappings).PLAY}__}" th:text="Play"/>
+    <attr sel="#footerId" th:replace="~{fragments/footer :: footerFragment}"/>
+</thlogic>
